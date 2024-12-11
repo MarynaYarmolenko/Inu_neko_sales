@@ -1,0 +1,3 @@
+CREATE DATABASE inu_neko;
+
+-- DROP DATABASE IF EXISTS sinu_neko;
