@@ -48,7 +48,7 @@ group by year, product_line, product_category, product_name
 ORDER BY year DESC, total_sales DESC
 ;
 ```
-![Query result](/assets/1_sales.png)
+![Query result](1_sales.png)
 
 Here's a breakdown of sales by product in 2021:
 - **Total sales:** The company's 20 product names generated revenues ranging from $38.17 to $556.78, indicating varying demand for the products.
@@ -76,7 +76,7 @@ ORDER BY total_quantity_sold DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/2_popular.png)
+![Query result](2_popular.png)
 
 Here's a breakdown of the most popular products in 2021:
 - **Total quantity sold:** The 10 products that were sold in the largest quantity were in the range of 6 to 10 units.
@@ -103,7 +103,7 @@ ORDER BY COUNT(DISTINCT order_number) DESC
 LIMIT 100
 ;
 ```
-![Query result](/assets/3_regular.png)
+![Query result](3_regular.png)
 
 Here are the regular buyers in 2021:
 - **Repeat purchases:** There were only 2 repeat customers, based on the fact that they made 3 or more purchases. Other customers made only 1 or 2 purchases.
@@ -126,7 +126,7 @@ ORDER BY cat_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/4_cats.png)
+![Query result](4_cats.png)
 
 Here is the analysis of the products from the cat line in 2021:
 - **Cat Product Quantity:** The number of units of cat products sold. Yum Fish-Dish has sold the most units.
@@ -155,7 +155,7 @@ ORDER BY dog_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/5_dogs.png)
+![Query result](5_dogs.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Dog Product Quantity:** The number of units of dog products sold. The most sold is 20 units of Reddy Beddy.
@@ -183,7 +183,7 @@ ORDER BY avg_quantity_per_customer DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/6_frequency.png)
+![Query result](6_frequency.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Total Customers:** The total number of customers who bought the product.
