@@ -48,7 +48,7 @@ group by year, product_line, product_category, product_name
 ORDER BY year DESC, total_sales DESC
 ;
 ```
-![Query result](/assets/1_sales.png)
+![Query result](1_sales.png)
 
 Here's a breakdown of sales by product in 2021:
 - **Overall sales:** The company's 20 product names generated revenues ranging from $38.17 to $556.78, indicating varying demand for the products.
@@ -76,7 +76,7 @@ ORDER BY total_quantity_sold DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/2_popular.png)
+![Query result](2_popular.png)
 
 ### 3. Who are the regular customers?
 
@@ -94,7 +94,7 @@ ORDER BY COUNT(DISTINCT order_number) DESC
 LIMIT 100
 ;
 ```
-![Query result](/assets/3_regular.png)
+![Query result](3_regular.png)
 
 ### 4. Analysis of products for cats.
 
@@ -113,7 +113,7 @@ ORDER BY cat_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/4_cats.png)
+![Query result](4_cats.png)
 
 ### 5. Analysis of products for dogs.
 
@@ -132,7 +132,7 @@ ORDER BY dog_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/5_dogs.png)
+![Query result](5_dogs.png)
 
 ### 6. Which products have the highest repeat purchase rate?
 
@@ -149,7 +149,7 @@ ORDER BY avg_quantity_per_customer DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/6_frequency.png)
+![Query result](6_frequency.png)
 
 
 # What I learned
