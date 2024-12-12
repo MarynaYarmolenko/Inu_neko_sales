@@ -48,7 +48,7 @@ group by year, product_line, product_category, product_name
 ORDER BY year DESC, total_sales DESC
 ;
 ```
-![Query result](/assets/1_sales.png)
+![Query result](1_sales.png)
 
 Here's a breakdown of sales by product in 2021:
 - **Overall sales:** The company's 20 product names generated revenues ranging from $38.17 to $556.78, indicating varying demand for the products.
