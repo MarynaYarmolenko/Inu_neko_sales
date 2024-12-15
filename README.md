@@ -50,7 +50,7 @@ group by year, product_line, product_category, product_name
 ORDER BY year DESC, total_sales DESC
 ;
 ```
-![Query result](/assets/1_sales.png)
+![Query result](1_sales.png)
 
 Here's a breakdown of sales by product in 2021:
 - **Total sales:** The company's 20 product names generated revenues ranging from $38.17 to $556.78, indicating varying demand for the products.
@@ -58,11 +58,11 @@ Here's a breakdown of sales by product in 2021:
 - **Product category diversity:** There are four product categories: Bedding, Treat, Foot and Toy.
 - **Product lines:** The products are divided into two lines for cats and dogs.
 
-![sales_2021](/charts/sales_2021.png) 
+![sales_2021](sales_2021.png) 
 
 *A histogram visualizing sales by month in 2021, created using Tableau*.
 
-![sales_line](/charts/sales_line.png)
+![sales_line](sales_line.png)
 
 *A histogram visualizing sales by line and by month in 2021, created using Tableau*. 
 
@@ -82,13 +82,13 @@ ORDER BY total_quantity_sold DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/2_popular.png)
+![Query result](2_popular.png)
 
 Here's a breakdown of the most popular products in 2021:
 - **Total quantity sold:** The 10 products that were sold in the largest quantity were in the range of 6 to 10 units.
 - **Customers:** The number of customers who bought these products in the range from 2 to 10 people.
 
-![Most popular products](/charts/popular_product.png)
+![Most popular products](popular_product.png)
 
 
 *A histogram visualizing the most popular products in 2021, built using Tableau*. 
@@ -109,7 +109,7 @@ ORDER BY COUNT(DISTINCT order_number) DESC
 LIMIT 100
 ;
 ```
-![Query result](/assets/3_regular.png)
+![Query result](3_regular.png)
 
 Here are the regular buyers in 2021:
 - **Repeat purchases:** There were only 2 repeat customers, based on the fact that they made 3 or more purchases. Other customers made only 1 or 2 purchases.
@@ -132,14 +132,14 @@ ORDER BY cat_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/4_cats.png)
+![Query result](4_cats.png)
 
 Here is the analysis of the products from the cat line in 2021:
 - **Cat Product Quantity:** The number of units of cat products sold. Yum Fish-Dish has sold the most units.
 - **Cat Product Sales:** The amount received from the sale of each product.
 - **Cat Unique Customers:** The number of customers who bought each product.
 
-![Cat Product Analysis](/charts/cat_bar_chart.png)
+![Cat Product Analysis](cat_bar_chart.png)
 
 
 *A histogram visualizing the most popular products from the cat line in 2021, built using Tableau*. 
@@ -161,14 +161,14 @@ ORDER BY dog_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/5_dogs.png)
+![Query result](5_dogs.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Dog Product Quantity:** The number of units of dog products sold. The most sold is 20 units of Reddy Beddy.
 - **Dog Product Sales:** The amount received from the sale of each product.
 - **Dog Unique Customers:** The number of customers who bought each product.
 
-![Dog Product Analysis](/charts/dog_bar_chart.png)
+![Dog Product Analysis](dog_bar_chart.png)
 
 
 *A bar chart visualizing the most popular products from the dog line in 2021, created using Tableau*. 
@@ -189,14 +189,14 @@ ORDER BY avg_quantity_per_customer DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/6_frequency.png)
+![Query result](6_frequency.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Total Customers:** The total number of customers who bought the product.
 - **Total Quantity:** The total number of units sold.
 - **Average Quantity per Customer:** The average number of units sold per customer. The most number of repeat purchases is 3, and the products that sold 3 times are: Kitty Climber, Cat Cave, Whole Chemistry Recipe, Tug-a-Back and New Dish.
 
-![Most frequently repeated product purchases](/charts/repeat_purchases.png)
+![Most frequently repeated product purchases](repeat_purchases.png)
 
 
 *A histogram visualizing the products with the highest frequency of recurrence in 2021, built using Tableau*. 
@@ -208,7 +208,7 @@ You can find a detailed visualization of all the issues resolved by viewing the 
 
 *This dashboard demonstrates visualizations of all the issues resolved during data analysis:*
 
-[Dashboard](/charts/dashboard.png)
+[Dashboard](dashboard.png)
 # Conclusions
 
 After analyzing the data according to the following criteria for selecting products for the subscription:
@@ -219,7 +219,7 @@ After analyzing the data according to the following criteria for selecting produ
 
 Kira suggested that Carlos include the following products in the subscription to get 500 subscribers in the first year:
 
-![Subscription Products](/charts/subscription_product.png)
+![Subscription Products](subscription_product.png)
 
 ## Additional factors for analysis:
 - Average price of products
