@@ -50,7 +50,7 @@ group by year, product_line, product_category, product_name
 ORDER BY year DESC, total_sales DESC
 ;
 ```
-![Query result](/assets/1_sales.png)
+![Query result](1_sales.png)
 
 Here's a breakdown of sales by product in 2021:
 - **Total sales:** The company's 20 product names generated revenues ranging from $38.17 to $556.78, indicating varying demand for the products.
@@ -58,15 +58,15 @@ Here's a breakdown of sales by product in 2021:
 - **Product category diversity:** There are four product categories: Bedding, Treat, Foot and Toy.
 - **Product lines:** The products are divided into two lines for cats and dogs.
 
-![sales_product](/charts/Sales_product.png)
+![sales_product](Sales_product.png)
 
 *A histogram visualizing sales by product_name in 2021, created using Tableau. To create a histogram, the analyst used filtering by the Date column, using the Range of dates Filter type.*
 
-![sales_2021](/charts/sales_2021.png) 
+![sales_2021](sales_2021.png) 
 
 *This line chart visualizes total weekly sales for 2021, created with Tableau. To create the chart, I used Date filtering, with a Range of dates Filter type. I also added Parameters: Time granularity: week, month, quarter*.
 
-![sales_line](/charts/sales_line.png)
+![sales_line](sales_line.png)
 
 *This line chart visualizes monthly sales for two Product_lines: cat and dog for 2021, created with Tableau. The line chart for the cat line shows the highest sales at the beginning of the year in January and the lowest sales in June. The line chart for dogs shows the highest sales in April and the lowest sales in February. To create the chart, I used Date filtering, and the Filter type was Range of dates. I also added Parameters: Time granularity: week, month, quarter*.
 
@@ -86,13 +86,13 @@ ORDER BY total_quantity_sold DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/2_popular.png)
+![Query result](2_popular.png)
 
 Here's a breakdown of the most popular products in 2021:
 - **Total quantity sold:** The 10 products that were sold in the largest quantity were in the range of 6 to 10 units.
 - **Customers:** The number of customers who bought these products in the range from 2 to 10 people.
 
-![Most popular products](/charts/popular_product.png)
+![Most popular products](popular_product.png)
 
 *This bar chart visualizes the most popular products for 2021. To create the chart, I used filtering by Date, filter type Range of dates, and filtering by Product_name: 10 products with the highest number of sales*.
 
@@ -113,7 +113,7 @@ LIMIT 100
 ;
 ```
 
-![Query result](/assets/3_regular.png)
+![Query result](3_regular.png)
 
 Here are the repeat customers in 2021:
 - **Repeat purchases:** There were only 2 repeat customers, based on the fact that they made 3 or more purchases. Other customers made only 1 or 2 purchases.
@@ -137,19 +137,19 @@ ORDER BY cat_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/4_cats.png)
+![Query result](4_cats.png)
 
 Here is the analysis of the products from the cat line in 2021:
 - **Cat Product Quantity:** The number of units of cat products sold. Yum Fish-Dish has sold the most units.
 - **Cat Product Sales:** The amount received from the sale of each product.
 - **Cat Unique Customers:** The number of customers who bought each product.
 
-![Cat Product Analysis](/charts/cat_bar_chart.png)
+![Cat Product Analysis](cat_bar_chart.png)
 
 
 *The bar chart visualizes the most popular products from the cat line in 2021. The line chart visualizes sales for these products. To create the chart, we used filtering by Date, the Filter type was Range of dates, filtering by Product_line: cat, and filtering by Quantity, which ranges from 7 to 11*.
 
-![Cat Product Analysis](/charts/Sales_cat_line.png)
+![Cat Product Analysis](Sales_cat_line.png)
 
 
 *The pie chart visualizes the top 5 products from the cat line, which had the highest sales in 2021 in the yellow-brown palette and other less profitable products in gray. Each sector of the pie chart shows the percentage share of each product in the cat line of total sales in 2021. To create the chart, we used filtering by Date, the Filter type was Range of dates, filtering by Product_line: cat, and filtering by Product_name: Top 5 products by sales*.
@@ -171,19 +171,19 @@ ORDER BY dog_product_quantity DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/5_dogs.png)
+![Query result](5_dogs.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Dog Product Quantity:** The number of units of dog products sold. The most sold is 20 units of Reddy Beddy.
 - **Dog Product Sales:** The amount received from the sale of each product.
 - **Dog Unique Customers:** The number of customers who bought each product.
 
-![Dog Product Analysis](/charts/dog_bar_chart.png)
+![Dog Product Analysis](dog_bar_chart.png)
 
 
 *The bar chart visualizes the most popular products from the dog line in 2021. The line chart visualizes sales for these products. To create the chart, we used filtering by Date, the Filter type was Range of dates, filtering by Product_line: dog, and filtering by Quantity, which ranges from 6 to 20*.
 
-![Dog Product Analysis](/charts/Sales_dog_line.png)
+![Dog Product Analysis](Sales_dog_line.png)
 
 *The pie chart visualizes the top 5 products from the dog line, which had the highest sales in 2021 in the yellow-brown palette and other less profitable products in gray. Each sector of the pie chart shows the percentage share of each product in the dog line of total sales in 2021. To create the chart, we used filtering by Date, the Filter type was Range of dates, filtering by Product_line: dog, and filtering by Product_name: Top 5 products by sales*.
 
@@ -203,18 +203,19 @@ ORDER BY avg_quantity_per_customer DESC
 LIMIT 10
 ;
 ```
-![Query result](/assets/6_frequency.png)
+![Query result](6_frequency.png)
 
 Here is the analysis of products from the dog line in 2021:
 - **Total Customers:** The total number of customers who bought the product.
 - **Total Quantity:** The total number of units sold.
 - **Average Quantity per Customer:** The average number of units sold per customer. The most number of repeat purchases is 3, and the products that sold 3 times are: Kitty Climber, Cat Cave, Whole Chemistry Recipe, Tug-a-Back and New Dish.
 
-![Most frequently repeated product purchases](/charts/repeat_purchases.png)
+![Most frequently repeated product purchases](repeat_purchases.png)
 
 *This bar chart visualizes the products with the highest frequency of recurrence in purchases in 2021*. 
 
-You can find a detailed visualization of all the issues resolved by viewing the dashboard here: [Dashboard Tableau](https://public.tableau.com/views/InuNeko_17340776918960/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+You can find a detailed visualization of all the issues resolved by viewing the dashboard here: 
+[Dashboard Tableau](https://public.tableau.com/views/InuNeko_17340776918960/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **This Inu+Neko sales dashboard shows a visualization of all the problems solved during data analysis:**
 
@@ -241,7 +242,7 @@ Calculation of sales at different levels of detail. Created Calculated fields:
 - using the LOD expressions type - EXCLUDE, **ATTR(Total Sales):** {EXCLUDE [Order Date]: SUM([Sales])} - recorded calculation of sales at the lowest level of detail,
 - **Sales** - sales at the highest level of detail on a daily basis.
 
-![Sales by month](/charts/Sales_by_month.png)
+![Sales by month](Sales_by_month.png)
 
 ### 2. Sales by line 2021: 
 Sales calculation at line and category detail levels. Created Calculated fields:
@@ -249,7 +250,7 @@ Sales calculation at line and category detail levels. Created Calculated fields:
 - **Category_Sales:** {FIXED [Product_Category]: SUM([Sales])} - fixed calculation of sales at the Product_Category level,
 - **Sales** - sales at the highest level of detail for each product.
 
-![Sales by line 2021](/charts/Sales_by_line_2021_tabl.png)
+![Sales by line 2021](Sales_by_line_2021_tabl.png)
 
 ### 3. Monthly New MRR: 
 The amount of sales generated by customers in the first calendar month of using the products. Created Calculated fields:
@@ -258,7 +259,7 @@ The amount of sales generated by customers in the first calendar month of using 
 - **Order Month:** DATETRUNC('month', [Order Date]) - the month of purchase for all purchases,
 - **New MRR:** SUM(IIF([Client First Order Month]=[Order Month],[Sales],NULL)) - checking the month of purchase, whether it corresponds to the first month of the customer's purchase, if it does, then Sales is taken into account in the amount
 
-![Monthly New MRR](/charts/Monthly_new_MRR.png)
+![Monthly New MRR](Monthly_new_MRR.png)
 
 ### 4. Sales weekday 2021: 
 
@@ -268,14 +269,14 @@ Created Calculated fields
 - **Weekday:** DATEPART('weekday',[Date],'monday') - the number of the day of the week corresponding to the purchase date,
 - **weekday name:** DATENAME('weekday',[Date],'monday') - the name of the day of the week corresponding to the date of the purchase.
 
-![Sales weekday 2021](/charts/Sales_weekday_2021.png)
+![Sales weekday 2021](Sales_weekday_2021.png)
 
 ### 5. Cumulative Sales:
 
 Created Quick Table Calculations - Running total - Total(down)
 - **Sales** - the cumulative amount of sales for each month
 
-![Cumulative Sales](/charts/Cumulative%20Sales.png)
+![Cumulative Sales](Cumulative%20Sales.png)
 
 ### 6. Retention Cohort:
 
@@ -287,7 +288,7 @@ The percentage of customers who repeated their purchase in a month, 2, 3 from th
 
 Cohort analysis shows that in 2021, very few customers repeated their purchases, unlike in previous years.
 
-![Retention Cohort](/charts/Retention%20cohort.png)
+![Retention Cohort](Retention%20cohort.png)
 
 ### 7. Total Customer by month 2021:
 
@@ -295,7 +296,7 @@ Created Quick Table Calculations - Percent difference - Previous.
 - **% Difference in Customer_Total** - a bar chart that shows the percentage difference in the number of customers compared to the previous month,
 - **Customer_Total** - a line chart showing the number of customers per month
 
-![Total Customer by month 2021](/charts/Diff_total_customer_month.png)
+![Total Customer by month 2021](Diff_total_customer_month.png)
 
 *The diagram shows how the percentage difference from the previous month changes from -70% to -70% with the change in the number of customers from 10 to 3, or with the increase in the number of customers from 3 to 9, the percentage difference from the previous month changes by +200%.*
 
@@ -309,7 +310,7 @@ Analyst Kira analyzed the data according to the following criteria for selecting
 
 As a result of the analysis of sales of cat and dog lines in 2021, the analyst selected 5 products for each line that Inu+Neko owner Carlos could offer in a subscription to get 500 subscribers in the first year.
 
-![Subscription Products](/charts/subscription_product.png)
+![Subscription Products](subscription_product.png)
 
 ## The analyst then suggested the following steps to address the issues:
 
